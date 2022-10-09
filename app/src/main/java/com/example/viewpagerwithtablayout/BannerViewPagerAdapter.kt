@@ -1,4 +1,4 @@
-package com.koc.kocailem.market.ui.main.adapter
+package com.example.viewpagerwithtablayout
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.example.viewpagerwithtablayout.R
 import kotlinx.android.synthetic.main.activity_banner.view.*
 
 class BannerViewPagerAdapter(private val context: Context) : PagerAdapter() {
@@ -40,5 +39,4 @@ class BannerViewPagerAdapter(private val context: Context) : PagerAdapter() {
         val view = `object` as View
         vp.removeView(view)
     }
-
 }
